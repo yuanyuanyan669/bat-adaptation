@@ -1,0 +1,20 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj
+.Ruserdata
+
+# Python
+__pycache__/
+*.pyc
+.python-env/
+renv/
+
+# Outputs
+project/outputs/figures_FP/*
+project/outputs/report/*
+
+# OS crap
+.DS_Store
+
