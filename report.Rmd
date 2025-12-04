@@ -8,7 +8,7 @@ Exploratory Data Analysis
 
 I cleaned and standardized the dataset, extracted four key categorical variables (species, habitat, lifespan group, and diet), calculated their top 10 most frequent categories, and visualized them using horizontal bar plots.
 
-```{r, echo=FALSE, out.width="50%", out.height="60%"}
+```{r, echo=FALSE, fig.align='center', out.width="70%", out.height="70%"}
 knitr::include_graphics("project/outputs/figures_FP/fig1_categorical_distributions.png")
 ```
 
@@ -17,7 +17,7 @@ The distributions show that the dataset is dominated by a few recurring species,
 
 I calculated co-occurrence proportions between pairs of categorical traits: food strategy, habitat, DNA traits, disease protection, environment, and disease susceptibility, and then visualized each pair as a heatmap using a consistent color scale to highlight higher or lower co-occurrence patterns.
 
-```{r, echo=FALSE, out.width="50%", out.height="60%"}
+```{r, echo=FALSE, fig.align='center', out.width="70%", out.height="70%"}
 knitr::include_graphics("project/outputs/figures_FP/fig2_heatmaps_combined.png")
 ```
 
